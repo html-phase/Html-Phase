@@ -123,6 +123,10 @@
 	padding: 25px;
 	width: 30%;
 }
+.advantages-box-cont {
+    float: right;
+    width: 80%;
+}
 }
  @media (max-width:991px) {
 .why-choose-box li {
@@ -333,6 +337,10 @@ ul.relief {
 .contact-box-right {
     padding: 15px;
     width: 50%;
+}
+.advantages-box-cont {
+    float: right;
+    width: 80%;
 }
 
 }
@@ -650,6 +658,26 @@ ul.relief {
     margin: 0px;
     padding-top: 40px;
     width: 100%;
+}
+.advantages-box-cont {
+    float: right;
+    width: 100%;
+}
+
+.advantages-box-img {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.partners-contenet-box p {
+    border-left:none;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 12px;
+    font-style: normal;
+}
+.Relief-Services-left h1, h3 {
+    text-align: center;
 }
 
 }
