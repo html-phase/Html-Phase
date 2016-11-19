@@ -1269,9 +1269,11 @@ h2.top_text {
 	float: right;
 	width: 45%;
 }
-.contact-box-right{
-	float: right;
-	width: 50%;
+.contact-box-right {
+    background: #fafafa none repeat scroll 0 0;
+    float: right;
+    padding: 30px 50px;
+    width: 50%;
 }
 .contact-box-right img{
 	display: block;
