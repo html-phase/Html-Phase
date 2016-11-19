@@ -330,6 +330,10 @@ ul.relief {
     padding-top: 40px;
     width: 46%;
 }
+.contact-box-right {
+    padding: 15px;
+    width: 50%;
+}
 
 }
  @media (max-width:880px) {
@@ -629,7 +633,7 @@ ul.relief {
     width: 100%;
 }
 .contact-box-right {
-    float: right;
+    padding: 10px;
     width: 100%;
 }
 .form-group > label {
