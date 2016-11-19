@@ -8,7 +8,6 @@ common portion start
 */
 
 
-
 @font-face {
 	font-family: 'freehand';
 	src:url(../font/ufonts.com_freehand-521-bt.ttf)
@@ -277,6 +276,7 @@ warning page start
 	 background-position:center center;
 	 background-size:cover;
 	 padding-bottom:450px;
+	 overflow: hidden;
 }
 
 
@@ -402,6 +402,7 @@ warning page end
   font-weight: 400;
   color:#b9b9b9;
   text-align:justify;
+  z-index: 999;
 }
 .nano .content:focus {
   outline: thin dotted;
