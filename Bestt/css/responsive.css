@@ -180,9 +180,21 @@
 @media (max-width:480px) {
     
 .war-btn-area ul li a{
-		font-size:34px;
-	}	
-											
+		font-size:25px;
+	}
+	.nano{
+		height: 232px;
+	}
+	.war-btn-area{
+		margin: 20px auto 20px;
+	}
+	.war-btn-area ul li a{
+		line-height: 42px;
+	}
+	.war-btn-area ul li{
+      margin:5px;
+	  
+	}
 }
 
 @media (max-width:420px) {
