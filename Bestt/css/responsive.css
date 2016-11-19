@@ -1,0 +1,218 @@
+/* CSS Document */
+@media (min-width:320px) {
+    .container{
+		 width:95%;
+	}
+	#warning-text{
+		width: 90%;
+		padding: 11px;
+	}
+}
+
+@media (min-width:481px) {
+    .container{
+		 width:470px;
+	}
+	#warning-text{
+		width: 90%;
+	}
+}
+
+
+@media (min-width:641px) {
+    .container{
+		 width:620px;
+	}
+	#warning-text{
+		width: 80%;
+	}
+	.war-btn-area ul li{
+		width: 40%;
+	}
+	.war-btn-area ul li a{
+		font-size:33px;
+	}
+}
+
+@media (min-width:992px) {
+    .container{
+		 width:95%;
+	}
+	#warning-text{
+		width: 800px;
+	}
+	.war-btn-area ul li{
+		width: 44%;
+	}
+}
+
+@media (min-width:1367px) {
+    .container{
+		 width:1350px;
+	}
+	#warning-text{
+		width: 1000px;
+	}
+}
+
+
+
+@media (min-width:2160px) {
+    .container{
+		 width:2160px;
+	}
+    
+}
+
+
+    
+
+
+@media (max-width:1700px) {
+   .left-image{
+	   left: -99px;
+   }
+   .right-image{
+	    right: -72px;
+   }
+}
+
+
+@media (max-width:1360px) {
+      .right-image{
+		  width: 36%;
+	  }
+	  .left-image{
+		  width: 55%;
+	  }
+}
+
+
+@media (max-width:1280px) {
+	
+
+	
+}
+
+@media (max-width:1200px){
+ 	 
+   .container{
+		 width:90%;
+	}
+	
+	
+	 
+}
+
+@media (max-width:1095px){
+   
+	
+}
+
+	
+
+@media (max-width:991px) {
+   #war-header .logo{
+      width: 240px;
+	  right:inherit;
+	  top: 33px;
+   }
+  #warning-section{
+	  padding-bottom: 300px;
+  }
+														 													  
+}
+	
+@media (max-width:768px) {
+    
+   #warning-text{
+     width: 92%;
+   }
+   .right-image{
+	   right: -16px;
+   }
+
+}
+@media (max-width:760px) {
+
+ 
+                            
+}
+
+
+@media (max-width:680px) {
+   
+	h4{
+		font-size: 49px;
+	}
+}
+@media (max-width:640px) {
+   
+	.war-btn-area ul li{
+		    width: 93%;
+	}
+	#warning-section{
+		padding-bottom: 164px;
+	}
+	.left-image{
+		width: 71%;
+	}
+	.right-image{
+		    width: 43%;
+	}
+}
+@media (max-width:560px) {
+    #war-header .logo{
+	   top: 128px;
+	   right:0;
+	}
+	.headre-right-email{
+		margin:auto;
+		float:none;
+	}
+}
+@media (max-width:520px) {
+   h4{
+		font-size: 35px;
+	} 
+
+}
+@media (max-width:480px) {
+    
+.war-btn-area ul li a{
+		font-size:34px;
+	}	
+											
+}
+
+@media (max-width:420px) {
+
+
+                                            
+}
+
+	
+@media (max-width:390px) {
+
+  h4{
+		font-size: 30px;
+	} 
+}
+
+
+@media (max-width:365px) {
+
+
+
+}
+
+
+@media (max-width:337px){
+
+  h4{
+		font-size: 28px;
+	} 
+}
+
+
+
