@@ -1,0 +1,324 @@
+/* CSS Document */
+
+
+
+    
+@media (min-width:320px) {
+
+
+    
+}
+
+
+
+@media(min-width:1500px ) and (max-width:2560px ) {
+.video-box-cont-left h4 {
+    font-size: 28px;
+    line-height: 32px;
+}
+.video-col-3 .video-box-cont-left h4 {
+    font-size: 21px;
+}
+.video-col-4 .video-box-cont-left h4 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.video-col-5 .video-box-cont-left h4 {
+    font-size: 13px;
+    line-height: 20px;
+}
+.video-col-6 .video-box-cont-left h4 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.video-col-7 .video-box-cont-left h4 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.video-col-8 .video-box-cont-left h4 {
+    font-size: 12px;
+    line-height: 17px;
+}
+.video-col-9 .video-box-cont-left h4 {
+    font-size: 13px;
+    line-height: 18px;
+}
+.video-col-10 .video-box-cont-left h4 {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+}
+
+@media (max-width:1390px) {
+   
+}
+
+
+@media (max-width:1280px) {
+	
+
+	
+}
+
+@media (max-width:1200px){
+ 	 
+   .container{
+		 width:90%;
+	}
+
+ 
+}
+
+@media (max-width:1095px){
+
+
+   
+}
+
+	
+
+@media (max-width:991px) {
+.right-logo-box {
+    right: 0;
+    text-align: center;
+    width:100%;
+    z-index: 999;
+    position: inherit;
+}
+.video-box-left{
+    width: 100%;
+}
+.video-box-middle{
+    width: 100%;
+}
+.video-box-right{
+    width: 100%;
+    padding-top: 40px;
+}
+.video-col-1 {
+    float: left;
+    width: 100%;
+}
+
+.video-col-3 {
+    right: 0px;
+    width: 100%;
+}
+.video-box-bottom {
+    clear: both;
+    padding-top: 40px;
+}
+.video-col-5 {
+    float: right;
+    width: 50%;
+}
+.video-box-middle {
+    padding: 5% 10px 0;
+    text-align: center;
+}
+.video-col-6 {
+    padding-top: 4%;
+    position: relative;
+    right: 0;
+    width: 48%;
+}
+.video-box-middle {
+    padding: 0;
+}
+.video-col-6 {
+    width: 100%;
+}
+.video-col-2 {
+    float: left;
+    width: 100%;
+}
+.video-col-7 {
+    float: left;
+    padding-top: 12px;
+    width: 48%;
+}
+.video-col-8 {
+    float: right;
+    margin-left: 0px;
+    width: 50%;
+    padding-top: 12px;
+}
+.video-col-9 {
+    margin-left: 0;
+    padding-top: 4%;
+    width: 48%;
+    float: left;
+}
+
+.right-video-box-bottom {
+    padding-top: 4%;
+    clear: both;
+}
+.video-col-9 {
+    float: left;
+    margin-left: 0;
+    padding-top: 4%;
+    width: 100%;
+}
+.video-col-10 {
+    margin-left: 0;
+    padding-top: 0;
+    width: 100%;
+}
+.video-box {
+    clear: both;
+}
+
+.video-box-cont-left h4 {
+    font-size: 20px !important;
+    line-height: 26px !important;
+    text-align: left !important;
+}
+													 													  
+}
+	
+@media (max-width:768px) {
+    
+.heading h1 {
+    -webkit-text-stroke: 1.5px #f19ddb;
+    color: #222;
+    font-size: 50px;
+}
+.video-box-left {
+    float: left;
+    width: 100%;
+}
+.video-col-1 {
+    float: right;
+    width: 100%;
+}
+.video-col-3 {
+    right:0px;
+    width: 100%;
+}
+.video-col-4 {
+    float: left;
+    width: 100%;
+}
+
+.video-col-5 {
+    float: right;
+    width: 100%;
+    padding-top: 40px;
+}
+.video-box-middle {
+    float: left;
+    padding: 65px 0 0 0;
+    width: 100%;
+}
+.video-col-6 {
+    padding-top: 20%;
+    position: relative;
+    right: 0px;
+    width: 100%;
+}
+.video-box-right {
+    float: right;
+    width: 100%;
+}
+.video-col-2 {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+}
+.video-col-7 {
+    float: left;
+    padding-top: 20px;
+    width: 100%;
+}
+.video-col-8 {
+    float: left;
+    margin-left: 0px;
+    width: 100%;
+    padding-top: 40px;
+}
+.video-col-9 {
+    margin-left: 0;
+    padding-top: 40px;
+    width: 100%;
+}
+.video-col-10 {
+    margin-left: 0;
+    padding-top:40px;
+    width: 100%;
+}
+.logo {
+    text-align: center;
+}
+.video-box-cont-left h4 {
+    font-size: 20px !important;
+    line-height: 22px;
+}
+.right-logo-box {
+    float: none;
+    padding-top: 20px;
+    position: inherit;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+.video-box-cont-right h5 {
+    font-size: 21px !important;
+}
+
+}
+@media (max-width:760px) {
+
+ 
+                            
+}
+
+
+@media (max-width:640px) {
+    
+
+
+}
+@media (max-width:500px) {
+    
+}
+
+@media (max-width:480px) {
+    
+.video-box-cont-left h4 {
+    font-size: 17px !important;
+    line-height: 26px !important;
+}
+											
+}
+
+@media (max-width:420px) {
+
+
+
+}
+
+	
+@media (max-width:390px) {
+
+
+}
+
+
+@media (max-width:365px) {
+
+
+
+}
+
+
+@media (max-width:337px){
+
+
+
+}
+
+
+
