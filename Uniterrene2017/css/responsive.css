@@ -1,0 +1,422 @@
+/* CSS Document */
+
+@media (min-width:320px) {
+.container {
+	width: 90%;
+}
+}
+@media (min-width:480px) {
+.container {
+	width: 90%;
+}
+}
+ @media (min-width:768px) {
+.container {
+	width: 90%;
+}
+}
+ @media (min-width:992px) {
+.container {
+	width: 950px;
+}
+}
+ @media (min-width:1201px) {
+.container {
+	width: 1170px;
+}
+}
+ @media (min-width:1281px) {
+ 	
+}
+ @media (min-width:1366px) {
+
+}
+ @media (min-width:1367px) {
+.container {
+	width: 1250px;
+}
+}
+ @media (min-width:1550px) {
+.container {
+	width: 1470px;
+}
+}
+ @media (min-width:1680px) {
+.container {
+	width: 1550px;
+}
+}
+ @media (min-width:1921px) {
+.container {
+	width: 1820px;
+}
+}
+ @media (min-width:2200px) {
+.container {
+	width: 2100px;
+}
+}
+
+ @media (max-width:1365px) {
+body, html {
+	font-size: 16px;
+}
+}
+ @media (max-width:1280px) {
+}
+ @media (max-width:1200px) {
+ 	nav .navigation ul li a{
+ 		padding: 10px;
+ 		font-size: 14px;
+ 	}
+ 	#services .box{
+ 		width: 30%;
+ 		vertical-align: top;
+ 	}
+#phone ul li {
+    display: inline-block;
+    width: 49%;
+}
+
+}
+@media (max-width:1095px) {
+}
+ @media (max-width:991px) {
+body, html {
+	font-size: 14px;
+}
+nav .navigation ul li a{
+ 		padding: 7px;
+    	font-size: 13px;
+ 	}
+
+
+ #services .box .right_part{
+ 	width: 100%;
+    margin-top: 10px;
+ }	
+#services .box .left_part{
+	float: none;
+    margin: 0 auto;
+}
+#services .box .right_part h5{
+	text-align: center;
+}
+#portfoliio .right_part{
+	width: 104%;
+}
+#portfoliio .right_part .img_part .overlay {
+    background: rgba(1,48,103,.95);
+    height: 100%;
+    width: 100%;
+    padding: 10px 62px 40px 120px;
+}
+.infoSec {
+    width: 62%;    
+    padding: 64px 20px;
+}
+
+
+}
+@media (max-width:950px){
+	.infoSec {
+    	width: 50%;    
+    	padding: 15px;
+	}
+}
+
+ @media (max-width:880px) {
+
+nav .navigation ul li a{
+ 		padding: 7px;
+    	font-size: 10px;
+ 	}
+
+}
+
+
+ @media (max-width:768px) {
+body, html {
+	font-size: 12px;
+}
+.responsiveMenu{
+	display: block;
+}
+nav .navigation ul{
+ 	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    background: rgba(0,0,0, .8);
+ }
+ nav .navigation ul li{
+ 	display: block;
+ 	width:100%;
+ 	float: none;
+ }
+ nav .navigation ul li a{
+ 	line-height: inherit;
+ 	text-align: center;
+ 	padding: 20px;
+ 	display: block;
+ 	color: #fff;
+ }
+#topBar .callToAction {   
+    height: 35px;   
+    right: -7px;    
+}
+#topBar .callToAction a {   
+    line-height: 36px;    
+    font-size: 15px;
+    text-indent: 30px;
+}
+nav .navigation ul li a.active{
+	color: yellow;
+	text-decoration: line-through;
+	font-size: 20px;
+}
+.close{
+	display: block;
+}
+#services .box{
+	width: 29%;
+	padding: 12px;
+}
+#services{
+	padding: 20px 0;
+}
+.content {
+    margin-top: 20px;
+}
+.about-div .f_right{
+	width: 100%;
+}
+.about-div .f_left{
+	width: 100%;
+	padding-right: 0;
+	padding-top: 20px;
+}
+.why-chose-div .f_right {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.why-chose-div .f_left {
+    width: 100%;
+    padding-right: 0;
+}
+
+#testimonial .circle{
+	margin: 0 auto;
+}
+#testimonial .imgSection {
+    float: none;
+}
+.infoSec {
+    width: 100%;
+    float: none;
+    padding: 0px;
+}
+.infoSec p{
+	text-align: justify;
+}
+.navigation-test {
+    width: 296px;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    z-index: 99;    
+    float: none;
+    text-align: center;
+    margin-left: -150px;
+}
+.left_ {
+    float: left;
+    width: 40%;
+    text-align: center;
+        margin-top: 20%;
+}
+.right_{
+	width: 60%;
+}
+#services .box{
+	margin: 10px 0;
+}
+
+
+}
+
+ @media (max-width:667px) {
+
+
+#topBar .callToAction a {   
+    line-height: 36px;    
+    font-size: 13px;
+    text-indent: 25px;
+}
+
+
+
+
+}
+
+ @media (max-width:640px) {
+body, html {
+	font-size: 10px;
+}
+.f_left{
+	float:none;
+	text-align:center !important;
+}
+.f_right{
+	float:none;
+}
+#topBar .callToAction a {   
+    line-height: 36px;    
+    font-size: 13px;
+    text-indent: 20px;
+}
+#services .box{
+	width: 45%;
+}
+#how .content .box{
+	display: inline-block;
+	vertical-align: top;
+	float: none;
+	width: 30%;
+}
+#how .content .box h5{
+	font-size: 10px;
+	margin-top: 10px !important;
+}
+#how .content .box.up_arrow_box .rect{
+	top: 0px !important;
+}
+#how .content .box > img{
+	display: none;
+}
+#how{
+	padding: 40px 0;
+}
+footer .box{
+	width: 100%;
+	margin: 0;
+}
+
+}
+ @media (max-width: 550px) {
+
+}
+ @media (max-width:480px) {
+body, html {
+	font-size: 8px;
+}
+#services .box{
+	width: 100%;
+}
+
+.fullwidth .overlay h3 {
+    text-align: center;
+     float: none; 
+    color: #fff;
+}
+.fullwidth .overlay a.btn_bor {
+    float: none;
+    width: 50%;
+    margin: 15px auto;
+    margin-bottom: 0;
+}
+#associate ul li{
+	width: 49%;
+    padding: 20px;
+}
+#associate{
+	padding: 10px 0;
+}
+#phone ul li{
+	width: 100%;
+}
+#portfoliio .right_part {
+    width: 130%;
+}
+footer .last ul{
+	float: none;
+	text-align: center;
+}
+footer .last p{
+	text-align: center;
+	float: none;
+	margin-bottom: 0;
+}
+
+}
+ @media (max-width:390px) {
+body, html {
+	font-size: 7px;
+}
+#topBar .f_left ul li a{
+	font-size: 12px;
+}
+#topBar .f_left ul.social{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#topBar .callToAction{
+	display: none;
+}
+#topBar .f_left ul:nth-child(2){
+	    margin-right: 0;
+    margin-left: 5px;
+}
+nav .logo img{
+	width: 85%;
+}
+a.btn_bor{
+	font-size: 13px;
+}
+#how .content .box{
+	display: inline-block;
+	vertical-align: top;
+	float: none;
+	width: 45%;
+}
+#testimonial{
+	padding: 40px 0;
+}
+#testimonial .circle{
+	width: 250px;
+	height: 250px;
+}
+.infoSec p{
+	margin-top: 0;
+}
+#portfoliio .right_part {
+    width: 170%;
+}
+.left_{
+	width: 100%;
+	margin-top: 35%;
+}
+.right_ {
+    width: 100%;
+}
+#portfoliio .right_part .img_part .overlay {
+    background: rgba(1,48,103,.95);
+    height: 100%;
+    width: 100%;
+    padding: 10px 25px 40px 89px;
+}
+#aboout .btn {
+    float: none;
+    margin-top: 40px;
+}
+
+}
+ @media (max-width:330px) {
+
+}
