@@ -16,9 +16,6 @@ $('.flexslider').flexslider({
   });
 	
 	$('#testimonial .flex-direction-nav').css({'display':'none'});
-
-
-
 	  $('.popup-btn').click(function(e) {
 	    $('.popup-wrap').fadeIn(250);
 	    $('.popup-box').removeClass('transform-out').addClass('transform-in');
@@ -38,7 +35,6 @@ console.log(portfolioOffsetTop);
 
 $(window).scroll(function(){
 	var scrollPos = $(this).scrollTop();
-	//console.log(scrollPos);
 	if(scrollPos > 1890){
 		$('.flexslider2 li.flex-active-slide').find('.left_ img').addClass('img-add');
 		
@@ -109,40 +105,31 @@ $('.close').bind('click',function(){
 
 
 
-
-
-
-
-
-
-
-
 });	
 
-// $(document).keydown(function(event){
-// 	console.log(event);
-//     if(event.keyCode==123){
-//     	alert("Don't try ...");
-//     return false;
-//    }
-// else if(event.ctrlKey && event.shiftKey && event.keyCode==73){        
-//       return false;  //Prevent from ctrl+shift+i
-//    }
-//    else if(event.ctrlKey && event.keyCode==67){  
-//    	alert("copy not allowed")      ;
-//       return false;  //Prevent from ctrl+c
-//    }
-//    else if(event.keyCode==27){  
-//    		$('nav .navigation ul').slideUp();
-//       //return false;  //Prevent from ctrl+c
-//    }
-//    else if(event.keyCode==77){  
-//    		$('nav .navigation ul').stop().slideToggle();
-//       //return false;  //Prevent from ctrl+c
-//    }
-// });
+$(document).keydown(function(event){
+	console.log(event);
+    if(event.keyCode==123){
+    return false;
+   }
+else if(event.ctrlKey && event.shiftKey && event.keyCode==73){        
+      return false;  //Prevent from ctrl+shift+i
+   }
+   else if(event.ctrlKey && event.keyCode==67){  
+   	alert("copying not allowed")      ;
+      return false;  //Prevent from ctrl+c
+   }
+   else if(event.keyCode==27){  
+   		$('nav .navigation ul').slideUp();
+      //return false;  
+   }
+   else if(event.keyCode==77){  
+   		$('nav .navigation ul').stop().slideToggle();
+      //return false;  
+   }
+});
 
-// $(document).on("contextmenu",function(e){   //removeing the context menu(right click)     
-//    e.preventDefault();
-// });
+$(document).on("contextmenu",function(e){   //removeing the context menu(right click)     
+   e.preventDefault();
+});
 
