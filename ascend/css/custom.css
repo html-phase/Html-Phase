@@ -340,6 +340,7 @@ common portion end
 	color: #fff;
 	padding: 7px 25px;
 	transform: skew(-35deg);
+	-webkit-transform: skew(-35deg);
 	position: relative;
 	top:0;
 	min-height: 36px;
@@ -380,11 +381,13 @@ a.btn-get-started:after{
 	background-size: contain;
 	position: absolute;
 	transform: skew(35deg);
+	-webkit-transform: skew(35deg);
 	top: 0;
 	right: -47%;
 }
 .searchAndBtn a span{
 	transform: skew(35deg);
+	-webkit-transform: skew(35deg);
 	display: block;
 	font-size: 14px;
 	line-height: 20px;
@@ -582,6 +585,7 @@ a.btn-get-started:after{
 }
 .main_nav_area nav ul li{
 	transform: skew(-29deg);
+	-webkit-transform: skew(-29deg);
 	transition: all .3s ease-in;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -594,6 +598,7 @@ a.btn-get-started:after{
 	text-transform: uppercase;
 	font-size: 13px;
 	transform: skew(29deg);
+	-webkit-transform: skew(29deg);
 	transition: all .3s ease-in;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -614,6 +619,7 @@ a.btn-get-started:after{
 }
 .main_nav_area nav ul li.seperator{
 	transform: skew(0deg);
+	webkit-transform: skew(0deg);
 	padding: 28px 0px; 
 	margin-left: 5px;
 }
@@ -701,6 +707,9 @@ a.btn-get-started:after{
 	text-align: left;
 	position: relative;
 	margin-left: 30px;
+}
+.mobile-heding-div{
+	display: none;
 }
 .container.contents{
 	padding-top: 30px;
@@ -938,10 +947,14 @@ section.productContent{
 }
 .proDuctImg{
 	float: left;
-	max-width: 325px;
-	max-height: 240px;
+	/*max-width: 325px;
+	max-height: 240px;*/
 	width: 43%;
 	border:1px solid #1b75bc;
+}
+.imgArea > img {
+    display: block;
+    width: 100%;
 }
 .productRowHolder .productContent{
 	 padding-top: 50px; 
@@ -1408,4 +1421,256 @@ ul.featuresLi{
   margin-bottom: -12px;
   border-top-color: #000;
   border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.readMoreContent{
+	display: none;
+	background: #fff;
+    padding: 10px 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.productHeading span{
+	display: block;
+	font-weight: bold;
+}
+
+/*_____________________ Testimonials _____________________________*/ 
+
+.slider.testimonials{
+	background:url(../images/testimonials_slider_bg.jpg) no-repeat center top;
+	min-height: 318px;
+	background-size: cover;
+	height: auto;
+	position: relative;
+}
+
+.container.contents .HeadingTestimonials h2{
+	text-align: center;
+	font-size: 41px;
+}
+.container.contents .HeadingTestimonials h2:after{
+	margin: 0 auto;
+	right: 0;
+	width: 395px;
+	background: url(../images/testimonial_heading_after.png) left top no-repeat;
+}
+.leftDescription{
+	float: left;
+	width: 60%;
+	height: 320px;
+	background: #d2e4f2;
+	transform: skew(-29deg);
+	-webkit-transform: skew(-29deg);
+	transition: all .3s ease-in;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	overflow: hidden;
+}
+.mainContentStart .rows{
+	padding-left:8%;
+	padding-top: 55px;
+	
+}
+.leftDescriptionInner1{
+	width: 100%;
+	height: 100%;
+	background: #9bc3e2;
+	position: relative;
+	right: 10px;
+}
+.leftDescriptionInner2{
+	width: 100%;
+	height: 100%;
+	background: #1c76bc;
+	position: relative;
+	right: 10px;
+}
+.rightImagesArea{
+	float: left;
+	width: 30%;
+	height: 320px;
+	background: red;
+	margin-left: 20px;
+	transform: skew(-29deg);
+	-webkit-transform: skew(-29deg);
+	-moz-transform: skew(-29deg);
+	
+}
+.imageHolder{
+	width: 100%;
+	height: 100%;
+	transform: skew(29deg);
+	-webkit-transform: skew(29deg);
+	-moz-transform: skew(29deg);
+	width: 160%;
+	position: relative;
+	left: -28%;
+}
+.imageHolder img{
+	height: 100%;
+	width: 100%;
+}
+.mainContentArea{
+	transform: skew(29deg);
+	-webkit-transform: skew(29deg);
+	-moz-transform: skew(29deg);	
+	height: 100%;
+	padding: 80px 0 0 100px;
+	padding-right: 35px;
+}
+.mainContentArea p{
+	color: #fff;
+	margin: 0;
+}
+.mainContentArea p:last-child{
+	padding-top: 20px;
+}
+.imgLabel{
+	width: 103%;
+	height: 60px;
+	background: #ff8c00;
+	position: absolute;
+	z-index: 9;
+	bottom: 20px;
+	margin-left: -5px;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.imgLabel:before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 8px;
+	height: 5px;
+	background: url(../images/left_.png) center center;
+	bottom: -8%;
+	left: 0;
+}
+.imgLabel:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 8px;
+	height: 5px;
+	background: url(../images/left_.png) center center;
+	bottom: -8%;
+	right: 0;
+}
+.imgLabel span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 17px;
+		transform: skew(29deg);
+	-webkit-transform: skew(29deg);
+	-moz-transform: skew(29deg);
+	color: #fff;
+	padding-top: 5%;
+}
+
+
+.rowsRightCurve .rightImagesArea{
+	margin-left: 0;
+	margin-right: 20px;
+	transform: skew(29deg);
+	-webkit-transform: skew(29deg);
+	-moz-transform: skew(29deg);
+}
+.rowsRightCurve .rightImagesArea .imageHolder{
+	transform: skew(-29deg);
+	-webkit-transform: skew(-29deg);
+	-moz-transform: skew(-29deg);
+}
+.rowsRightCurve .rightImagesArea  .imgLabel span{
+	transform: skew(-29deg);
+	-webkit-transform: skew(-29deg);
+	-moz-transform: skew(-29deg);
+}
+
+.rowsRightCurve .leftDescription{
+	transform: skew(29deg);
+	-webkit-transform: skew(29deg);
+	-moz-transform: skew(29deg);
+	background: #ffe8cc;
+}
+.rowsRightCurve .leftDescriptionInner1{
+	background: #ffcc8e;
+	left: 10px;
+	right: inherit;
+}
+.rowsRightCurve .leftDescriptionInner2{
+	background: #ff8c00;
+	left: 10px;
+	right: inherit;
+}
+.rowsRightCurve .leftDescription .mainContentArea{
+	transform: skew(-29deg);
+	-webkit-transform: skew(-29deg);
+	-moz-transform: skew(-29deg);
+}
+.rowsRightCurve .mainContentArea{
+	padding-left: 0px;
+	padding: 80px 100px;
+}
+.rowsRightCurve .imgLabel{
+	background: #1c76bc;
+}
+.rows:last-child{
+	padding-bottom: 55px;
+}
+.pagination{
+	text-align: center;
+}
+.pagination ul li{
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 3px;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+
+}
+.pagination ul li:not(.firstAndLast){
+	width: 40px;
+	height: 30px;
+	border: 1px solid #ababab;
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+	transform: skew(-29deg);
+	-webkit-transform: skew(-29deg);
+	-moz-transform: skew(-29deg);
+	background: #efefef;
+}
+.pagination ul li span{
+	display: block;
+	transform: skew(29deg);
+	-webkit-transform: skew(29deg);
+	-moz-transform: skew(29deg);
+}
+.firstAndLast{
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin:55px 0;
+}
+.pagination ul li a{
+	color: #676767;
+	font-size: 13px;
+}
+.pagination ul li:not(.firstAndLast):hover{
+	background: #1b75bc;
+	color: #fff;
+}
+
+.rowsRightCurve .imgLabel::after {    
+    background: url(../images/left_2.png) center center; 
+}
+.rowsRightCurve .imgLabel::before {    
+    background: url(../images/left_2.png) center center; 
 }

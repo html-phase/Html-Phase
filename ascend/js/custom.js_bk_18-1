@@ -58,34 +58,6 @@ $(document).ready(function(){
 	 	$(".ratingArea ul li:gt("+ ind +")").addClass('doneRating');
 	 	//alert(ind);
 	});
-
-
-
-	//scroll
-
-	$(window).scroll(function(){
-		var scroollPos = $(this).scrollTop();
-		if(scroollPos > 200){
-			$('header').addClass('smaller');
-		}else{
-			$('header').removeClass('smaller');
-
-		}
-	});
-
-	var cl = 0;
-
-	$('.btnHolder .btn.btn_readMore').bind('click',function(arguments) {
-		$(this).parent().parent().siblings().find('.readMoreContent').slideUp();
-		cl = cl+1;
-		if(cl<=1){
-			$('.btnHolder .btn.btn_readMore').html('Read Less <i class="fa fa-angle-double-up" aria-hidden="true"></i>');
-		}else if(cl == 2){
-			$('.btnHolder .btn.btn_readMore').html('Read More <i class="fa fa-angle-double-down" aria-hidden="true"></i>');
-			cl = 0;
-		}
-		$(this).parent().prev('.readMoreContent').slideToggle();
-	});
 		
 
 });
