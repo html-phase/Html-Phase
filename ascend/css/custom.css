@@ -206,6 +206,14 @@ a {
 	font-size: 0;
 }
 
+section.productContent{
+	text-align: left;
+}
+.page_header_underline{
+   display: inline-block;
+}
+
+
 /*===============================================================
 common portion end
 =================================================================
@@ -698,15 +706,26 @@ a.btn-get-started:after {
 .container.contents {
 	padding-top: 30px;
 }
-.container.contents h2:after {
+.container.contents h2:before {
 	content: '';
 	position: absolute;
-	bottom: -15px;
+	bottom: -12px;
 	left: 0;
-	width: 120px;
-	height: 10px;
-	background: url(../images/h2_after.png) left top no-repeat;
-	background-size: contain;
+	width: 96%;
+	height: 6px;
+	/*background: url(../images/h2_after.png) left top no-repeat;*/
+	background: #1b75bc;
+	
+}
+.container.contents h2:after{
+	background: url(../images/header_divider_end.png) left top no-repeat;
+	width: 42px;
+	height: 6px;
+	position: absolute;	
+	content: '';
+	right:-28px;
+	bottom: -12px;
+    
 }
 aside.mainSidebar {
 	width: 25%;
@@ -1806,4 +1825,13 @@ ul.footer_social li:hover a {
 ul.footer_social li {
 	display: inline-block;
 	vertical-align: top;
+}
+
+/* **************************************
+************************* SHOP PAGE ***************************
+**************************************** */
+
+.slider.shop_page{
+	background: none;
+	height: 134px;
 }
