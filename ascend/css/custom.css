@@ -208,16 +208,16 @@ common portion end
 */
 
 
-// #main_header{
+/*// #main_header{
 // 	height: auto;
 // 	width: 100%;
 // 	height: 135px;
 // 	position: absolute;
 // 	top:0;
 // 	left: 0;
-// 	/*padding: 0 15px*/
-// 	z-index: 9999;
-// }
+// 	padding: 0 15px
+ 	z-index: 9999;
+ }*/
 
 .steky-header{
   height: auto;
