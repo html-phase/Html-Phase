@@ -99,6 +99,7 @@ h4 {
 	font-weight: normal;
 }
 h5 {
+	font-size: 1.25rem;
 }
 h6 {
 }
@@ -206,12 +207,7 @@ a {
 	font-size: 0;
 }
 
-section.productContent{
-	text-align: left;
-}
-.page_header_underline{
-   display: inline-block;
-}
+
 
 
 /*===============================================================
@@ -1625,6 +1621,7 @@ ul.featuresLi {
 
 .main_nav_area nav ul li {
 	float: left;
+	margin-left:-2px;
 }
 .footer_back {
 	background: url(../images/footer_back.jpg) center center no-repeat;
@@ -1704,7 +1701,7 @@ ul.featuresLi {
 .footer_row ul li a:hover, .footer_row ul li a:hover:before {
 	color: #1b76bc;
 }
-.footer_row ul li.email a:before, .footer_row ul li.tel a:before, .contact_sec ul li.footer_owned a:before, .footer_right_row ul li a:before {
+.footer_row ul li.email a:before, .footer_row ul li.tel a:before, .contact_sec ul li.footer_owned a:before, .footer_right_row ul li a:before, .business_hour ul li.footer_owned a:before {
 	content: none;
 }
 .footer_row ul li.email a, .footer_row ul li.tel a {
@@ -1720,10 +1717,23 @@ ul.featuresLi {
 	font-size: 20px;
 	color: #fefefe;
 }
-.contact_sec ul li {
+.contact_sec ul li, .business_hour ul li {
 	font-size: 16px;
 	color: #fefefe;
 	padding: 5px 0;
+}
+.footer_row.business_hour ul {
+    margin: 0;
+}
+.business_hour .footer_owned{
+	margin-top:20px;
+	
+}
+.business_hour .footer_owned a{
+	padding-left:0
+}
+.footer_row.contact_sec ul {
+    margin: 30px 0 0;
 }
 .contact_sec ul li span {
 	font-size: 14px;
@@ -1834,4 +1844,32 @@ ul.footer_social li {
 .slider.shop_page{
 	background: none;
 	height: 134px;
+}
+section.productContent{
+	text-align: left;
+}
+section.productContent h2{
+   display: inline-block;
+}
+.asideContainer.pro_cat .filterTopSection{
+	border: 1px solid #e7e8ea;
+	padding: 0px 0;
+	padding-bottom: 0;
+	margin-top: 97px;
+	margin-bottom: 53px;
+}
+.asideContainer.pro_cat .filterTopSection h5{
+	background: #1b75bc;
+	color: #fff;
+	padding: 13px 20px;
+	position: relative;
+}
+.asideContainer.pro_cat .filterTopSection h5:after{
+	background: url(../images/header_right_arrow.png) no-repeat;
+	content: '';
+	width: 40px;
+	height: 55px;
+	position: absolute;
+	right: -40px;
+	top:-1px;
 }
