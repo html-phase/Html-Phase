@@ -1392,12 +1392,12 @@ ul.featuresLi {
 	text-align: center;
 	font-size: 41px;
 }
-.container.contents .HeadingTestimonials h2:after {
+/*.container.contents .HeadingTestimonials h2:after {
 	margin: 0 auto;
 	right: 0;
 	width: 395px;
 	background: url(../images/testimonial_heading_after.png) left top no-repeat;
-}
+}*/
 .leftDescription {
 	float: left;
 	width: 60%;
@@ -1884,4 +1884,22 @@ section.productContent h2 {
 }
 .mainContentStart .rows.rowsleftCurve {
 	padding-right: 8%;
+}
+.container.contents .HeadingTestimonials span {
+	background: url(../images/hading-saprater-left.png) left top no-repeat;
+	width: 42px;
+	height: 6px;
+	position: absolute;
+	content: '';
+	left: -39px;
+	bottom: -12px;
+}
+.container.contents h2.partical_bothside {
+	margin-left: 0px;
+}
+.container.contents h2.partical_bothside::after {
+	right: -36px;
+}
+.container.contents h2.partical_bothside::before {
+	width: 99%;
 }
