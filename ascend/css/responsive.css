@@ -715,10 +715,16 @@ section.productContent {
 	overflow: auto;
 }
 .mainContentArea p:last-child {
-    padding-top: 0px;
+	padding-top: 0px;
 }
 .rowsRightCurve .mainContentArea {
-    padding: 7%;
+	padding: 7%;
+}
+.imgLabel {
+	height: auto;
+}
+.imgLabel span {
+	padding: 4% 10px;
 }
 }
 @media (max-width:549px) {
@@ -989,12 +995,10 @@ section.productContent {
 .testimonials .headbar h2 {
 	right: 35px;
 }
-
 }
 @media (max-width:365px) {
 }
  @media (max-width:345px) {
 }
 @media (max-width:330px) {
-
 }
