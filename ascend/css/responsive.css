@@ -860,6 +860,9 @@ section.productContent {
 .container.contents .HeadingTestimonials h2 {
 	font-size: 25px;
 }
+h2.partical_bothside{
+	line-height: 35px;
+}
 }
 @media (max-width:423px) {
 .inner-page-heading h2 {
