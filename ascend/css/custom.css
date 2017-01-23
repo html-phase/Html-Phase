@@ -1469,7 +1469,7 @@ ul.featuresLi {
 }
 .imgLabel {
 	width: 103%;
-	height: auto;
+	height: 60px;
 	background: #ff8c00;
 	position: absolute;
 	z-index: 9;
@@ -1511,7 +1511,7 @@ ul.featuresLi {
 	-webkit-transform: skew(29deg);
 	-moz-transform: skew(29deg);
 	color: #fff;
-	padding: 3% 10px;
+	padding-top: 5%;
 }
 .rowsRightCurve .rightImagesArea {
 	margin-left: 0;
