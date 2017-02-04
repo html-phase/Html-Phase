@@ -78,6 +78,12 @@
 }
 }
  @media (max-width:1200px) {
+ #portfolio .product_area ul li{
+ 	margin: 0 5px;
+ }
+ #portfolio .Productimg_holder{
+ 	padding: 10px;
+ }
 .priceing-col-first .pricing-content {
 /* padding-top: 15.7rem;*/
 }
@@ -858,6 +864,27 @@ section.productContent {
 }
 }
  @media (max-width:480px) {
+ #portfolio .product_area ul li{
+ 	width: 100%;
+ 	margin-bottom: 20px !important; 	
+ }
+ #portfolio #page_header .left_align_head h2{
+ 	margin:0 !important;
+ 	font-size: 20px;
+ 	text-align: center;
+ }
+ #portfolio .head_right_part{
+		text-align: center;
+ }
+ #portfolio #page_header .left_align_head h2:before{
+ 	display: none;
+ }
+ #portfolio #page_header .left_align_head h2:after{
+ 	display: none;
+ }
+  #portfolio .product_area ul li a{
+ 	display: block;
+ }
 .priceing-col {
 	width: 100%;
 	margin-bottom: 40px !important;

@@ -21,6 +21,12 @@ $(document).ready(function(){
 	});
 
 
+	$('.TagHolder a').bind('click', function(e){
+		e.preventDefault();
+		$(this).addClass('currrent').siblings().removeClass('currrent');
+	});
+
+
 
 	//14-12
 
