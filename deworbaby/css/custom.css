@@ -1,0 +1,474 @@
+@import url("../css/common.css");
+@import url("../css/style.css");
+@import url("../css/hover-min.css");
+@import url("../css/style_flex.css");
+
+/* CSS Document */
+
+/* *************************************************************
+************************** Header and Banner ******************************
+*************************************************************** */
+#main_header{
+	width: 100%;
+	height: auto;	
+	margin-top: 40px;	
+}
+.topHeader{
+	width: 100%;	
+	top: 0;		
+}
+.topHeader li{
+	float: right;
+	position: relative;
+}
+.cartAmmount{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 50%;
+	border: 2px solid #41476d;
+	font-size: 10px;
+	color: #41476d;
+	font-weight: bold;
+	padding-top: 2px;
+	top: 0;
+	right: 0;
+	text-align: center;
+}
+.topHeader li.cart a{ 
+	width: auto !important;
+	padding: 12px 12px 11px;
+}
+
+.btn{
+	width: 149px;
+	display: block;
+	background: #41476d;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-transform: uppercase;
+}
+.btn_cart img{
+	vertical-align: bottom;
+}
+.btn_cart{
+	margin: 0 0 0 auto;
+	font-size: 14px;
+}
+.logoArea{
+	background: url(../images/header_bg.png) center center no-repeat;	
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+nav ul li a{
+	text-transform: uppercase;
+	display: block;
+	padding: 17px;
+	color: #fff;
+}
+nav{
+	background: #41476d;
+	position: relative;
+}
+.rightSide{
+	float: right;
+	background: #caaa55;
+}
+.overlaySlide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9;
+	background: url(../images/slider_overlay.png) center center no-repeat;
+
+}
+.capHolder{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+.capContent{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background: url(../images/slider_overlay.png) center center no-repeat;
+}
+.maincaptionHolder{
+	width:75%;
+	height: auto;
+	border:5px solid #fff;
+	margin: 0 auto;
+	padding: 10px;
+}
+.mainCapInner{
+	background:rgba(255,255,255, .6);
+	padding: 55px 10px;
+}
+.mainCapInner h1{
+	font-size: 55px;
+	color: #303749;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+.mainCapInner h1 span{
+	font-size: 36px;
+	font-weight: normal;
+	display: block;
+}
+.responsiveMenu{
+	display: none;
+	text-align: right;
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+
+/*_________________ bamboo diapers _________________________*/
+.bamboo_diapers{
+	width: 100%;
+	height: auto;
+	padding: 60px 0;
+}
+.leftPart, .rightPart{
+	width: 50%;
+	float: left;
+}
+h2{
+	position: relative;
+	text-transform: uppercase;
+}
+h2:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 65px;
+	height: 2px;
+	background: url(../images/h2_after.jpg) center center no-repeat;
+}
+.bamboo_diapers .leftPart h2{
+	font-size: 18px;
+}
+.bamboo_diapers .leftPart h4{
+	font-size: 40px;
+	color: #303749;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+.leftContent{
+	width: 100%;
+}
+.leftContent .forLeft, .forRight{
+	width: 50%;
+	float: left;
+}
+.leftContent a{
+	color: #303749;
+	line-height: 30px;
+}
+.bamboo_diapers .rightPart{
+	text-align: right;
+}
+video{
+	width: 100%;
+}
+// video{
+// 	position: relative;
+// }
+// video:hover:after{
+// 	content: '';
+// 	display: block;
+// 	position: absolute;
+// 	z-index: 999;
+// 	width: 85%;
+// 	height: 85%;
+// 	background: red;
+// 	border: 2px solid #fff;
+// }
+
+/*________________________ collection __________________________*/ 
+.collection{
+	padding-bottom: 60px;
+}
+
+.collection .rightPart{
+	text-align: right;
+	padding-top: 6%;
+}
+.collection .rightPart h2{
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #303749;
+}
+.collection .rightPart h2:after{
+	right: 0;
+}
+.productWrap{
+	border: 1px solid #cccccc;
+	margin: 15px;
+}
+.proImg{
+	width: 100%;
+	height: 205px;
+}
+.proCap{
+	background: #9396ac;
+	padding: 1px;
+	color: #fff;
+}
+.collection .rightPart p{
+	color: #565656;
+	text-align: right;
+}
+.show_now{
+	border:2px solid #caaa55;
+	background: transparent;
+	padding: 5px;
+	float: right;
+}
+.show_now span{
+	display: block;
+	background: #caaa55;
+	padding: 10px;
+}
+
+/*________________________ freeTrial ____________________________*/ 
+.freeTrial{
+	width: 100%;
+	background: url(../images/freeTrial_bg.png), #c2cfec;
+	padding: 5%;
+	padding-bottom: 2%;
+	margin:60px 0;
+	position: relative;
+}
+.freeTrial h3{
+	font-size: 68px;
+	text-align: left;
+	color: #303749;
+	text-transform: uppercase;
+}
+.freeTrial h3 span{
+	font-size: 42px;
+	display: block;
+}
+.seeOurPlan{
+	float: none;
+}
+.rightImagePart{
+	position: absolute;
+	width: 60%;
+	height: auto;
+	right: 0;
+	top: -60px;
+	bottom: -60px;
+	background: url('../images/right_bg_trial.png') right -20px no-repeat;
+	padding-top: 7%;
+    padding-left: 10%;
+    text-align: center;
+}
+.rightImagePart img{
+	width: 70%;
+}
+
+/*_________________________ instagram ___________________________*/ 
+
+.instagram{
+	width: 100%;
+	height: auto;
+	padding: 60px 0;
+	background: #f4f4f4;
+	padding-bottom: 0;
+}
+.instagram h2{
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #303749;
+	text-align: center;
+}
+.instagram h2 span{
+	display: block;
+	color: #e5ab0f;
+	font-size: 20px;
+	margin: 15px 0;
+}
+.instagram h2:after{
+	left: 0;
+	right: 0;
+	margin: 0 auto
+}
+.instagram img{
+	padding-top: 20px;
+}
+
+/*___________________________ about ______________________________*/ 
+.about{
+	width: 100%;
+	height: auto;
+	padding: 60px 0;
+}
+.about h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 36px;
+	color: #303749
+}
+.about h2:after{
+	text-transform: uppercase;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 50px;
+}
+.about p{
+	color: #a8aaae;
+	width: 72%;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: justify;
+}
+.aboutLists{
+	text-align: center;
+}
+.aboutLists li{
+	display: inline-block;
+	vertical-align: top;
+	background: #d2dbf1;	
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	min-height: 150px;
+}
+.aboutLists li h2{
+	font-size: 24px;
+	font-weight: normal !important;
+}
+.aboutLists li h2:after{
+	display: none;
+}
+.aboutLists li p{
+	margin:0;
+	text-align: center;
+	width: 100%;
+	color: #303749;
+	line-height: 40px;
+}
+.aboutLists li .liWrap{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	border: 1px solid #fff;
+}
+.aboutLists li .liWrap a{
+	color: #e5ab0f;
+}
+li.social{
+	margin: 0 20px;
+	background: #b8c5e1;
+}
+.aboutLists{
+	padding-top: 50px ;
+}
+li.wholesale{
+	background: #c8d2e8;
+}
+.aboutLists  .wholesale .liWrap h2{
+	font-size: 20px;
+}
+.aboutLists .wholesale .liWrap a{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #41476d;
+	font-size: 25px;
+	padding: 20px 0;
+    display: block;
+    text-decoration: underline;
+    transition: all .3s ease-in;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+}
+.aboutLists .wholesale .liWrap a:hover{
+	color: #e5ab0f;
+
+}
+.socialNAv{
+	padding-top: 20px;
+}
+.socialNAv li{
+	display: inline-block;
+	background: transparent;
+	width: auto;
+	min-height: auto;
+	padding: 5px;
+}
+
+.socialNAv li a{
+	width: 35px;
+	height: 35px;
+	display: block;
+	border: 1px solid #8897bc;
+	text-align: center;
+	transition: all .3s ease-in;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+}
+.socialNAv a:hover{
+	background: #303749;
+}
+.socialNAv a:hover i{
+	color:#fff;
+}
+.socialNAv li a i{
+	font-size: 20px;
+	color: #303749;
+	display: block;
+	padding-top: 8px;
+}
+/*___________________ footer ______________________*/ 
+footer .fooWrap{
+	border-top: 1px solid #cccccc;
+	text-align: center;
+	padding: 36px 0;
+}
+.fooWrap li{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 30px;
+}
+.fooWrap li a{
+	display: block;
+	color: #5d6a88;
+	text-transform: uppercase;
+	transition: all .3s ease-in;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in
+}
+.fooWrap p{
+	font-size: 15px;
+	color: #94a3c5;
+}
+.fooWrap li a:hover{
+	color: #e5ab0f;
+}
+.nbs-flexisel-inner{
+	height: 345px;
+}
+.close{
+	position: absolute;	
+	color: #fff;
+	right: 20px;
+	top: 20px;
+}
+.close i{
+	font-size: 30px;
+	cursor: pointer;
+}
